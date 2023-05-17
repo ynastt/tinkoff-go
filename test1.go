@@ -3,8 +3,7 @@ package main
 
 import "fmt"
 
-
-func main1() {
+func main() {
 	var a [4]int
 	for i := 0; i < 4; i++ {
 		fmt.Scan(&a[i])
