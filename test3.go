@@ -52,7 +52,7 @@ func lenOfBestSubstring(s string, m map[int]int) int {
 	return -1
 }
 
-func main3() {
+func main() {
 	var n int
 	var s string
 	//0 - a  1 - b  2 - c  3 -d
