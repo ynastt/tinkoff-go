@@ -13,7 +13,7 @@ func sum(slice []int) int {
 	return s
 }
 
-func main6() {
+func main() {
 	var n, s, x, y int
 	fmt.Scan(&n, &s)
 	l := make([]int, 0, n)

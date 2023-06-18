@@ -3,13 +3,13 @@ package main
 
 import "fmt"
 
-// func sum(slice []int) int {
-// 	s := 0
-// 	for _, v := range slice {
-// 		s += v
-// 	}
-// 	return s
-// }
+func sum(slice []int) int {
+	s := 0
+	for _, v := range slice {
+		s += v
+	}
+	return s
+}
 
 func isNorm(slice []int) bool {
 	n := len(slice)
@@ -37,7 +37,7 @@ func calcNorm(n int, a []int) int {
 	return col
 }
 
-func main5() {
+func main() {
 	var n, x int
 	fmt.Scan(&n)
 	a := make([]int,0, n)

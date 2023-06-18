@@ -3,7 +3,7 @@ package main
 
 import "fmt"
 
-func main2() {
+func main() {
 	var n, m, k uint64
 	fmt.Scan(&n, &m, &k)
 	res := (n * k + m - 1) / m
